@@ -20,6 +20,7 @@ public class FileListWriter {
 
 
         finalA = testEntry.concat(testEntryData);
+        
         FileUtils.writeStringToFile(new File("mustio.txt"), finalA);
     }
 
